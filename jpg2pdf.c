@@ -18,8 +18,8 @@ int main(int argc, char *argv[]) {
 
     // Check for command line parameters.
     if (argc ==1) {
-        printf("To use specify the files on the command line or drop the images on jpeg2pdf.exe\n\n");
-        printf("Command line example: jpeg2pdf file1.jpg file2.jpg ...\n");
+        printf("To use specify the files on the command line or drop the images onto jpg2pdf.exe\n\n");
+        printf("Command line example: jpg2pdf file1.jpg file2.jpg ...\n");
         return 1;
     }
 
