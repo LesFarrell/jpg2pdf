@@ -6,11 +6,11 @@
 
 int main(int argc, char *argv[]) {
      struct pdf_info info = {
-        .creator = "jpeg2PDF",
-        .producer = "jpeg2PDF",
-        .title = "Jpeg to PDF",
+        .creator = "JPG2PDF",
+        .producer = "JPG2PDF",
+        .title = "JPG to PDF",
         .author = "Les Farrell",
-        .subject = "Created by JPEG2PDF",
+        .subject = "This PDF was created by JPG2PDF",
         .date = ""
     };
     struct pdf_object *page[MAXPAGES];
