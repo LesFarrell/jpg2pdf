@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     struct pdf_doc *pdf = pdf_create(PDF_A4_WIDTH, PDF_A4_HEIGHT, &info);
 
     // Check for command line parameters.
-    if (argc ==1) {
+    if (argc == 1) {
         printf("To use specify the files on the command line or drop the images onto jpg2pdf.exe\n\n");
         printf("Command line example: jpg2pdf file1.jpg file2.jpg ...\n");
         return 1;
